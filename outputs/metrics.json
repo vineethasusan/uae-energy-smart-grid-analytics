@@ -1,0 +1,50 @@
+{
+  "load": {
+    "model_with_weather_mape": 0.0371,
+    "model_without_weather_mape": 0.0668,
+    "same_hour_last_week_mape": 0.0847,
+    "summer_afternoon_peak_mape_model": 0.0289,
+    "summer_afternoon_peak_mape_last_week": 0.0648,
+    "daily_peak_mape": 0.0317
+  },
+  "solar": {
+    "ml_model": {
+      "nmae_pct_capacity": 0.0096,
+      "dust_days_nmae": 0.0281
+    },
+    "yesterday_same_hour": {
+      "nmae_pct_capacity": 0.0485,
+      "dust_days_nmae": 0.1442
+    },
+    "clear_sky_physics": {
+      "nmae_pct_capacity": 0.0622,
+      "dust_days_nmae": 0.2945
+    },
+    "physics_with_forecast_irradiance": {
+      "nmae_pct_capacity": 0.0352,
+      "dust_days_nmae": 0.0525
+    }
+  },
+  "tampering": {
+    "meters": 400,
+    "inspections": 20,
+    "model": {
+      "precision": 0.75,
+      "found": 15,
+      "total": 24,
+      "monthly_loss_recovered_aed": 10696
+    },
+    "yoy_rule": {
+      "precision": 0.6,
+      "found": 12,
+      "total": 24,
+      "monthly_loss_recovered_aed": 9136
+    },
+    "found_by_type": {
+      "bypass": 10,
+      "stopped_meter": 5
+    }
+  },
+  "test_period": "2025-07-01 to 2025-12-31",
+  "network_peak_kw": 3688
+}
